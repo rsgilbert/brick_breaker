@@ -1,7 +1,10 @@
+import 'package:brick_breaker/src/brick_breaker.dart';
 import 'package:flutter/material.dart';
+import 'package:flame/game.dart';
 
 void main() {
-  runApp(const MainApp());
+  final game = BrickBreaker();
+  runApp(GameWidget(game: game));
 }
 
 class MainApp extends StatelessWidget {
