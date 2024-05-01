@@ -1,5 +1,5 @@
 name: brick_breaker
-description: "A new Flutter project."
+description: "game."
 publish_to: 'none'
 version: 0.1.0
 
@@ -9,6 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flame: ^1.16.0 
+  flutter_animate: ^4.5.0 
+  google_fonts: ^6.1.0 
 
 dev_dependencies:
   flutter_test:
